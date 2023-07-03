@@ -1,0 +1,174 @@
+body, h1, h2, h3, p, span, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Roboto";
+    font-weight: bold;
+    background-color: #fff7f0;
+}
+
+a {
+    color: #7c3443;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.menu-top ul{
+    display: flex;
+}
+
+.menu-top li {
+    padding: 20px;
+}
+
+.wths {
+    padding: 20px;
+}
+
+.menu-top img {
+    width: 150px;
+}
+
+.linha-tracejada{
+    border-top: 1px dashed rgb(124, 124, 124); 
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.menu {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.principal img{
+    display: block;
+    width:  1200px;
+    height: 500px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.produtos img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.produtos h2 {
+    padding-top: 10px;
+    font-family: "Pacifico";
+    font-size: 1.25rem;
+    color: #c4ac76;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.redes-sociais img{
+    width: 50px;
+}
+
+.info {
+    display: block;
+    text-align: end;
+    color: #7c3443;
+}
+
+.info h2 {
+    margin-bottom: 20px;
+}
+
+.info p {
+    margin-top:  10px;
+}
+
+iframe {
+    border-radius: 8px;
+}
+
+.rodape {
+    font-size: .85rem;
+    padding: 20px 0px;
+    display: block;
+    text-align: center;
+}
+
+.sobre {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    gap: 60px;
+    text-align: start;
+    background: linear-gradient(90deg, rgba(168,80,92) 80%, rgba(255,247,240) 80%);
+    padding: 20px 40px;
+    color: #fff7f0;
+    margin-bottom: 40px;
+}
+
+.sobre h1, .sobre2 h1 {
+    padding-bottom: 20px;
+}
+
+.sobre img {
+    width: 500px;
+    object-fit: cover;
+}
+
+.sobre p, .sobre2 p {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.sobre2 {
+    display: grid;
+    grid-template-columns: 1fr 500px;
+    gap: 60px;
+    text-align: start;
+    background: linear-gradient(90deg, rgba(255,247,240) 20%, rgba(168,80,92) 20%);
+    padding: 20px 40px;
+    color: #fff7f0;
+}
+
+.sobre2 img {
+    width: 500px;
+    object-fit: cover;
+}
