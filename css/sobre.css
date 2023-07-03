@@ -1,0 +1,38 @@
+
+.sobre {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    gap: 60px;
+    text-align: start;
+    background: linear-gradient(90deg, rgba(168,80,92) 80%, rgba(255,247,240) 80%);
+    padding: 20px 40px;
+    color: #fff7f0;
+    margin-bottom: 40px;
+}
+
+.sobre h1, .sobre2 h1 {
+    padding-bottom: 20px;
+}
+
+.sobre img, .sobre2 img {
+    width: 500px;
+    object-fit: cover;
+    border: 1px solid white;
+
+}
+
+.sobre p, .sobre2 p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.sobre2 {
+    display: grid;
+    grid-template-columns: 1fr 500px;
+    gap: 60px;
+    text-align: start;
+    background: linear-gradient(90deg, rgba(255,247,240) 20%, rgba(168,80,92) 20%);
+    padding: 20px 40px;
+    color: #fff7f0;
+}

@@ -1,0 +1,37 @@
+.principal img{
+    display: block;
+    width:  1200px;
+    height: 500px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.produtos img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.produtos img:hover {
+    opacity: .8;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.05);
+}
+
+.produtos h2 {
+    padding-top: 5px;
+    font-family: "Pacifico";
+    font-size: 2rem;
+    font-weight: 100;
+    color: #c4ac76;
+}

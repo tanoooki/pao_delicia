@@ -1,0 +1,47 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.redes-sociais img{
+    width: 50px;
+}
+
+.info {
+    display: block;
+    text-align: end;
+    color: #7c3443;
+}
+
+.info h2 {
+    margin-bottom: 20px;
+}
+
+.info p {
+    margin-top:  10px;
+}
+
+iframe {
+    border-radius: 8px;
+}
+
+.rodape {
+    font-size: .85rem;
+    padding: 20px 0px;
+    display: block;
+    text-align: center;
+}
+
+.atendimento span {
+    display: block;
+    padding-top: 10px;
+}

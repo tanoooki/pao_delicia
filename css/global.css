@@ -1,0 +1,68 @@
+body, h1, h2, h3, p, span, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Roboto";
+    font-weight: bold;
+    background-color: #fff7f0;
+}
+
+a {
+    color: #7c3443;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 0px;
+    align-items: center;
+}
+
+.menu-top ul{
+    display: flex;
+}
+
+.menu-top li {
+    padding: 15px 12px;
+}
+
+.wths {
+    padding: 15px 12px;
+    background: rgb(196, 172, 118,.7);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+}
+
+.wths:hover {
+    background-color: rgb(124, 52, 67,.7);
+}
+
+.menu-top img {
+    width: 150px;
+}
+
+.linha-tracejada{
+    border-top: 1px dashed rgb(124, 124, 124); 
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.menu {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    padding-right: 20%;
+}
